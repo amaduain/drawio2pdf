@@ -11,4 +11,6 @@ python module: pymupdf
 drawio desktop app in PATH as `drawio`.
 
 ## Limitations
-Currently only the first drawio page is converted.
+This version allows to convert multiple pages, it creates one pdf per page in draw.io, because of PDF limitations and to avoid to create a mess of layers, it is easier to generate one pdf per page.
+In any case you can merge the documents into one later using adobe pdf editor or other options.
+
