@@ -8,7 +8,7 @@ usage: drawio2pdf.py input.drawio -o output.pdf
 ## Requirements
 python module: pymupdf
 
-drawio desktop app in PATH as `drawio`.
+Edit the file to change the path to your draw.io executable
 
 ## Limitations
 This version allows to convert multiple pages, it creates one pdf per page in draw.io, because of PDF limitations and to avoid to create a mess of layers, it is easier to generate one pdf per page.
